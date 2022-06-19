@@ -1,10 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-
 import Header from './global/header'
-
+import Main from './main'
 
 
 
@@ -23,14 +21,11 @@ export default function Home() {
         <Header />
       </header>
 
-      <main className={styles.main}>
-        
-        
+      <main>
+        <Main />
       </main>
 
-      <footer className={styles.footer}>
-      
-      </footer>
+
     </div>
   )
 }

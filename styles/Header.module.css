@@ -1,16 +1,16 @@
+.centerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .box{
-    width: 100%;
+    width: 40%;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 20px;
     background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(56, 51, 128, 0.3);
     color: #383380;
-    border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(118, 118, 118, 0.437);
-}
-
-.logo{
-
 }
 
 .menu{
@@ -21,11 +21,18 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    font-weight: 600;
+}
+
+.menu > li{
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .link{
     text-decoration: none;
-    margin: 10px;
+    padding: 20px;
+    line-height: 2.5;
     cursor: default;
 }
 
